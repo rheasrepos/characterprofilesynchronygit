@@ -1,0 +1,9 @@
+# Reviewer fix (reproducibility): pinned analysis dependencies for the sentiment pipeline.
+# Step 0 scoring additionally needs: transformers, torch, flair, vaderSentiment, tensorflow-hub (USE, 00c).
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+matplotlib
+openpyxl
