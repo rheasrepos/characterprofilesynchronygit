@@ -41,7 +41,7 @@ your project is actually about. Say this explicitly in the write-up — it pre-e
 | Model | Type | Classes | neutral? |
 |---|---|---|---|
 | Twitter-RoBERTa | transformer (Twitter-domain) | neg / neu / pos | **yes** (3-way) |
-| RoBERTa zero-shot (MNLI) | transformer, NLI-as-classifier | pos / neg (candidate labels) | no |
+| RoBERTa zero-shot (MNLI) | transformer, NLI-as-classifier | pos / neg / neu (candidate labels) | **yes** (3-way — neutral label added for comparability; requires re-running `00`) |
 | VADER | lexicon + rules | pos / neu / neg proportions | yes |
 | Flair | DistilBERT single-label | POSITIVE **or** NEGATIVE + confidence | **no** (binary, one pole) |
 | SiEBERT | RoBERTa-large, general | pos / neg | no (binary) |
